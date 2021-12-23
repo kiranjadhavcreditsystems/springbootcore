@@ -30,4 +30,11 @@ public class ApplicationController {
         return "software";
     }
 
+    @GetMapping("/stack")
+    public String stack()
+    {
+        return "stack";
+    }
+
+
 }
