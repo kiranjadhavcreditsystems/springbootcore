@@ -36,5 +36,11 @@ public class ApplicationController {
         return "stack";
     }
 
+    @GetMapping("/dev")
+    public String dev()
+    {
+        return "dev";
+    }
+
 
 }
