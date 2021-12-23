@@ -20,5 +20,10 @@ public class ApplicationController {
         return "INSPIRIA MALL | PUNE | MH | INDIA";
     }
 
+    @GetMapping("/ser")
+    public String ser()
+    {
+        return "software";
+    }
 
 }
